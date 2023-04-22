@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Chess_Piece">
+      <UniqueIdentifier>{bfab844d-ed96-4dee-87cd-9789b84786f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game_Player">
+      <UniqueIdentifier>{d8f99620-7ab5-4d08-a665-d7c9ba7d7011}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ChessBoard">
+      <UniqueIdentifier>{54dd39ed-57ce-4740-b181-dfa64e39ace0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Application">
+      <UniqueIdentifier>{d5307bac-81e7-4f3d-bc42-e44b31f62e9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Chess_Header">
+      <UniqueIdentifier>{1e3ef892-5c9e-4858-9127-f49dad75c7d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Chess_Header\ChessPiece_Header">
+      <UniqueIdentifier>{8cf31e43-4aa6-422d-b604-4f370cd112fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game_Header">
+      <UniqueIdentifier>{79f65e24-5d94-4a50-884f-fde72b215bee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Main_Include">
+      <UniqueIdentifier>{bf2480fa-1ca3-469f-a2ef-8c17535e8208}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\User_interface">
+      <UniqueIdentifier>{a5499640-5e6f-41a3-b3af-dd26abeea956}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Piece.cpp">
+      <Filter>Source Files\Chess_Piece</Filter>
+    </ClCompile>
+    <ClCompile Include="Pawn.cpp">
+      <Filter>Source Files\Chess_Piece</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files\Game_Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files\Game_Player</Filter>
+    </ClCompile>
+    <ClCompile Include="ChessBoard.cpp">
+      <Filter>Source Files\ChessBoard</Filter>
+    </ClCompile>
+    <ClCompile Include="ChessSquare.cpp">
+      <Filter>Source Files\ChessBoard</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Bishop.cpp">
+      <Filter>Source Files\Chess_Piece</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ChessBoard.h">
+      <Filter>Header Files\Chess_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ChessSquare.h">
+      <Filter>Header Files\Chess_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Piece.h">
+      <Filter>Header Files\Chess_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Pawn.h">
+      <Filter>Header Files\Chess_Header\ChessPiece_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files\Game_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files\Game_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Include.h">
+      <Filter>Header Files\Main_Include</Filter>
+    </ClInclude>
+    <ClInclude Include="GameProcess.h">
+      <Filter>Header Files\User_interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Bishop.h">
+      <Filter>Header Files\Chess_Header\ChessPiece_Header</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
